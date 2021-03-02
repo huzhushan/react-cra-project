@@ -1,0 +1,64 @@
+.wrap {
+  padding: 20px;
+}
+
+.input input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #05e;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.list li.active {
+  background-color: #090;
+}
+
+.list li span.delete {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.list li .btn {
+  cursor: pointer
+}
+
+.orange {
+  color: #f90
+}
+
+.operate {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #f90;
+  padding: 8px;
+}
+
+.operate .right span {
+  cursor: pointer;
+}
+
+.operate .right span.active {
+  color: #090;
+  font-weight: bold;
+}
